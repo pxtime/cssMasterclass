@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulare</title>
+</head>
+<body>
+<img src="imagini/furniture.jpeg">
+<hr>
+<form action="fisierul_generare.php" method="post">
+    <select name="preferinte">
+        <option value="varsta">varsta</option>
+        <option>pasiuni</option>
+        <option>culori preferate</option>
+    </select>
+    <br>
+    <br>
+    <input type="password" required>
+    <br>
+    <input type="email" required placeholder="introdu adresa ta de email">
+    <br>
+    <label for="numele-tau">numele tau</label>
+    <input type="text" id="numele-tau" name="numele-tau" required>
+    <br>
+    <label for="bmw">bmw</label>
+    <input type="radio" id="bmw" name="car" value="bmw">
+    <br>
+    <label for="audi">audi</label>
+    <input type="radio" id="audi" name="car" value="audi">
+    <br>
+    <label for="dacia">dacia</label>
+    <input type="radio" id="dacia" name="car" value="dacia">
+    <br>
+    <br>
+    <br>
+    <label for="car1">bmw</label>
+    <input type="checkbox" id="car1" value="bmw" name="preferinta">
+    <br>
+    <label for="car2">audi</label>
+    <input type="checkbox" id="car2" value="audi" name="preferinta">
+    <br>
+    <label for="car3">dacia</label>
+    <input type="checkbox" id="car3" value="dacia" name="preferinta">
+    <br>
+    <br>
+    <input type="reset" value="Reseteaza formularul">
+    <input type="submit" value="Trimite formularul">
+    <button type="submit">Trimite cu buton</button>
+</form>
+</body>
+</html>
